@@ -1,0 +1,7 @@
+---
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "/cincinnati-graph-data.tar.gz is present"
+    command: "ls"
+    args: ["/cincinnati-graph-data.tar.gz"]
